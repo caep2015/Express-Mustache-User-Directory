@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.15.3",
-    "mustache": "^2.3.0"
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.5"
   },
   "devDependencies": {},
   "scripts": {
