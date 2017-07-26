@@ -1,0 +1,25 @@
+{
+  "name": "userdirectory",
+  "version": "1.0.0",
+  "description": "robot user directory",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/caep2015/Express-Mustache-User-Directory.git"
+  },
+  "keywords": [
+    "\"express\"",
+    "\"mustache\"",
+    "\"node\""
+  ],
+  "author": "Carlota Pearl",
+  "license": "ISC"
+}
