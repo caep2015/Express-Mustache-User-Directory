@@ -12,11 +12,12 @@
       <ul class="list-unstyled list-inline index-container">
         {{#users}}
         <ul class="list-unstyled user-thumbnail">
-          <li class="avatar"><img class="img-rounded" src="{{avatar}}" alt="My Photo"></li>
+          <li class="avatar"><img class="img-rounded" src="{{avatar}}" alt="Photo"></li>
           <li class="user-info"><a href="{{id}}">{{name}}</a></li>
           <li>{{job}} {{company}}</li>
-          <li>{{^job}}{{/job}}</li>
+          <li>{{^job}}
           <li class="for-hire">{{^company}}Available for Hire{{/company}}</li>
+          {{/job}}</li>
         </ul>
         {{/users}}
       </ul>
